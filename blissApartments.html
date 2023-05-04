@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bliss Golf & Beach Apartments</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Bliss">
+    <meta name="description" content="Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4e6cbf3d2b.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="hero">
+    <div class="wrapper">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="blissApartments.html">Home</a></li>
+                    <li><a>Reservar</a>
+                        <ul>
+                            <li><a href="https://www.airbnb.pt/rooms/50059628?_set_bev_on_new_domain=1683100910_ZjVkZmEzOWQ0Zjc2&source_impression_id=p3_1683100910_C75J6tAN8%2BsxFGdb" target="_blank">Aroeira Beach & Golf Apartments</a></li>
+                            <li><a href="https://www.airbnb.pt/rooms/871059881924501375?source_impression_id=p3_1682367093_o%2BQBWQJtZXtI%2FgY0&_set_bev_on_new_domain=1644419969_MDY2NWJmNWZjZmE0" target="_blank">Galé Bliss Pool & Beach Resort</a></li>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="contactos.html">Contactos</a></li>
+                </ul>
+                <!-- <div class="toggle-container">
+                    <label class="toggle">
+                        <input type="checkbox" id="mode-toggle">
+                        <span class="slider"></span>
+                        <span class="icon sun"><i class="fas fa-sun"></i></span>
+                        <span class="icon moon"><i class="fas fa-moon"></i></span>
+                    </label>
+                </div> -->
+            </nav>
+        </header>
+    </div>
+
+    <section>
+        <div class="pos-relative" id="img">
+            <img width="1000" height="664" src="images/mar3.jpg">
+            <div class="pos-absolute"> Bliss Golf & Beach Apartments </div>
+        </div>
+    </section>
+
+    <!-- <section>
+        <figure>
+            <iframe width="315" height="560" src="images/video1.mp4" title="myVideo" frameborder="4px"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </figure>
+        <span style="color:black; font-weight:bold; font-size: 1.5em;">Make a Wish!</span>
+    </section> -->
+
+
+    <section>
+        <h3 id="fotografias1"><a href="https://www.airbnb.pt/rooms/50059628?_set_bev_on_new_domain=1683100910_ZjVkZmEzOWQ0Zjc2&source_impression_id=p3_1683100910_C75J6tAN8%2BsxFGdb">Aroeira Beach & Golf Apartments</a></h3>
+        <br>
+        <iframe name="foto1" width="725" height="485" src="images/Aroeira_1.webp"></iframe>
+        <br>
+        <img src="images/Aroeira_1_pequena.png"
+            onclick="document.getElementsByName('foto1')[0].src='images/Aroeira_1.webp'">
+        <img src="images/Aroeira_2_pequena.png"
+            onclick="document.getElementsByName('foto1')[0].src='images/Aroeira_2.webp'">
+        <img src="images/Aroeira_3_pequena.png"
+            onclick="document.getElementsByName('foto1')[0].src='images/Aroeira_3.webp'">
+        <img src="images/Aroeira_4_pequena.png"
+            onclick="document.getElementsByName('foto1')[0].src='images/Aroeira_4.webp'">
+    </section>
+
+    <section>
+        <h3 id="fotografias2"> <a href="https://www.airbnb.pt/rooms/871059881924501375?source_impression_id=p3_1682367093_o%2BQBWQJtZXtI%2FgY0&_set_bev_on_new_domain=1644419969_MDY2NWJmNWZjZmE0">Galé Bliss Pool & Beach Resort</a></h3>
+        <br>
+        <iframe name="foto2" width="725" height="485" src="images/Gale_1.webp"></iframe>
+        <br>
+        <img src="images/Gale_1_pequena.png"
+            onclick="document.getElementsByName('foto2')[0].src='images/Gale_1.webp'">
+        <img src="images/Gale_2_pequena.png"
+            onclick="document.getElementsByName('foto2')[0].src='images/Gale_2.webp'">
+        <img src="images/Gale_3_pequena.png"
+            onclick="document.getElementsByName('foto2')[0].src='images/Gale_3.webp'">
+        <img src="images/Gale_4_pequena.png"
+            onclick="document.getElementsByName('foto2')[0].src='images/Gale_4.webp'">
+    </section>
+
+
+    <footer> Bliss Golf & Beach Apartments | 2023 </footer>
+</body>
+
+
+<script>
+    // const modeSwitch = document.getElementById('mode-toggle');
+    // const linkElement = document.querySelector('link[href="estilos.css"]');
+
+    // // Verifica se há escolha armazenada no localStorage
+    // const mode = localStorage.getItem('mode');
+    // if (mode === 'dark') {
+    //     linkElement.setAttribute('href', 'estilos_dark.css');
+    //     modeSwitch.checked = true;
+    // }
+
+    // modeSwitch.addEventListener('click', () => {
+    //     if (linkElement.getAttribute('href') === 'estilos.css') {
+    //         linkElement.setAttribute('href', 'estilos_dark.css');
+    //         localStorage.setItem('mode', 'dark');
+    //     } else {
+    //         linkElement.setAttribute('href', 'estilos.css');
+    //         localStorage.setItem('mode', 'light');
+    //     }
+    // });
+
+    window.addEventListener('load', function () {
+        var labLinks = document.querySelectorAll('#reservar');
+        for (var i = 0; i < labLinks.length; i++) {
+            labLinks[i].setAttribute('target', '_blank');
+        }
+    });
+
+</script>
+
+
+
+</html>
