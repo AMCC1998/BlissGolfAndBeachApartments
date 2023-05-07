@@ -16,105 +16,10 @@
 body {
     height: 100%;
     width: 100%;
-    background-color:rgb(222, 248, 242) ;
+    /*background-color:rgb(222, 248, 242) ;*/
     overflow-y: scroll;
     }
 
-
-header {
-    text-align: center;
-    margin-right: 10px;
-    margin-right: 10px;
-    background-color: rgb(173, 240, 225);
-    color: rgb(173, 240, 225);
-    text-decoration: dotted;
-}
-
-
-nav {
-    position: relative;
-    z-index: 1;
-}
-
-nav ul,
-nav li,
-nav a {
-    margin: 0;
-    padding: 0;
-    border: none;
-    outline: none;
-}
-
-nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    background-color: rgb(173, 240, 225);
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
-}
-
-nav ul li {
-    display: block;
-    position: relative;
-    background-color:rgb(173, 240, 225);
-}
-
-
-/* Top-level menu links */
-nav ul li a {
-    display: block;
-    padding: 1em;
-    color: rgb(92, 91, 91);
-    font-size: 1.1em;
-    font-weight: bold;
-    text-decoration: none;
-    transition: color 0.3s ease-out;
-}
-
-/* Change color on hover */
-nav ul li a:hover {
-    color: rgb(92, 91, 91);
-    background-color: rgb(143, 142, 142);
-    content: "▸";
-}
-
-/* Sub-menu */
-nav ul ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: rgb(173, 240, 225);
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
-    white-space: nowrap;
-}
-
-nav ul li:hover>ul {
-    display: inherit;
-}
-
-nav ul ul li {
-    width: 100%;
-}
-
-nav ul ul li a {
-    display: block;
-    padding: 0.5em 1em;
-    color: rgb(92, 91, 91);
-    font-size: 1em;
-    text-decoration: none;
-}
-
-nav ul ul li a:hover {
-    color: #28282B;
-}
-
-nav ul ul ul {
-    left: 100%;
-    top: 0;
-}
 
 
 .menu-large {
@@ -138,7 +43,6 @@ nav ul ul ul {
 .pos-relative img {
     position: relative;
     width: 100%;
-    top: 10px;
 }
 
 .pos-relative {
@@ -147,7 +51,6 @@ nav ul ul ul {
 
 .pos-absolute {
     position: absolute;
-    top: 10px;
     left: 10px;
     font-size: 4rem;
     color: rgb(241, 238, 245);
@@ -266,10 +169,6 @@ div.parallax {
 }
 
 
-section {
-    margin: 50px 0;
-    text-align: center;
-}
 
 #contactos {
     justify-content: space-between;
@@ -299,7 +198,7 @@ h2 {
     transform: scale(1.5) rotate(10deg);
 }
 
-
+/*
 main {
     height: 100vh;
     background-image: url(images/vida_academica_1.jpg);
@@ -310,16 +209,16 @@ main {
     background-color: rgb(212, 247, 239);
     text-align: center;
     color: black;
-}
+}*/
 
-h1 {
+/*h1 {
     position: absolute;
     top: 15vh;
     width: 100%;
-}
+}*/
 
 
-th,
+/*th,
 td {
     border: 1px solid black;
     padding: 8px;
@@ -362,7 +261,7 @@ table td.aprovado:before {
 .tabelaProjectos {
     margin-right: 12rem;
     margin-left: 12rem;
-}
+}*/
 
 .toggle {
     display: inline-block;
@@ -396,7 +295,7 @@ table td.aprovado:before {
     transition: .4s;
 }
 
-.slider:before {
+/*.slider:before {
     position: absolute;
     content: "";
     height: 26px;
@@ -444,9 +343,4 @@ a i {
     color: white;
 }
 
-footer {
-    text-align: center;
-    background-color: rgb(173, 240, 225);
-    padding: 10px 10px;
-    color: rgb(92, 91, 91);
-}
+*/
