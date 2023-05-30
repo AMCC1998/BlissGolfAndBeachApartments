@@ -1,0 +1,11 @@
+# ----------------------------------------------------------------------
+# Rewrite
+# ----------------------------------------------------------------------
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+
+    RewriteCond %{HTTPS} on [NC,OR]
+    RewriteCond %{HTTP_HOST} !^www.blissgbp.com$ [NC]
+    # RewriteCond %{HTTP_HOST} !^sub.XXXXXX.XX$
+    RewriteRule ^(.*)$ http://www.blissgbp.com/$1 [L,R=301]
+</IfModule>
