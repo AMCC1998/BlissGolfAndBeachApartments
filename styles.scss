@@ -182,3 +182,19 @@ footer {
     padding: 10px 10px;
     color: $cinzento-escuro;
 }
+
+@media only screen and (max-width: 600px) {
+
+    body .wrapper-alojamentos {
+        flex-wrap: wrap;
+        .wrapper-alojamentos__item {
+            width: 100%;
+            max-width: 100%;
+            margin-bottom: 3rem;
+
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+}

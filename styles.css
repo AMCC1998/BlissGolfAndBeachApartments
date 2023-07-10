@@ -149,3 +149,17 @@ footer {
   padding: 10px 10px;
   color: #383838;
 }
+
+@media only screen and (max-width: 600px) {
+  body .wrapper-alojamentos {
+    flex-wrap: wrap;
+  }
+  body .wrapper-alojamentos .wrapper-alojamentos__item {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 3rem;
+  }
+  body .wrapper-alojamentos .wrapper-alojamentos__item:last-child {
+    margin-bottom: 0;
+  }
+}
